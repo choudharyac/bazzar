@@ -1,0 +1,25 @@
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.btn svg {
+  fill: #be2957;
+  width: 25px;
+  height: 25px;
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .btn {
+    padding: 5px;
+  }
+
+  .btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}

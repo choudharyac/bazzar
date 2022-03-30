@@ -1,0 +1,26 @@
+.productsList {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dropdown {
+  display: none;
+}
+.sidebar {
+  display: block;
+}
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+  .sidebar {
+    display: block;
+  }
+  .dropdown {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .sidebar {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+}

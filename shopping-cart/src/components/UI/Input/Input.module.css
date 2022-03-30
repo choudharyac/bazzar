@@ -1,0 +1,27 @@
+.formInput {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid #b2b2b2;
+}
+
+.formInput:focus {
+  border-bottom: 2px solid #c0eceb;
+  box-shadow: none;
+}
+
+.formInput:focus::placeholder {
+  color: transparent;
+}
+
+.error {
+  font-size: 14px;
+  font-weight: 600;
+  color: red;
+}
+
+.input-error {
+  border: 2px solid red;
+  box-shadow: none;
+  box-shadow: red;
+}

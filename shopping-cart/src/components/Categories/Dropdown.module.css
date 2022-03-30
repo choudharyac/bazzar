@@ -1,0 +1,11 @@
+.bazzarDropdown button {
+  background-color: #d10157;
+  color: white;
+}
+.bazzarDropdown .dropdownItem {
+  cursor: pointer;
+}
+.bazzarDropdown .active {
+  background-color: blue;
+  color: #ffffff;
+}

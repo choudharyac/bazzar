@@ -1,0 +1,26 @@
+.modalBtn {
+  background-color: #d10157;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+  height: 45px;
+}
+
+.lowestPrice {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  justify-content: center;
+}
+
+.lowestPrice img {
+  width: 150px;
+  height: 50px;
+}
+
+.lowestPrice span {
+  font-size: 12px;
+  margin-left: 20px;
+}
